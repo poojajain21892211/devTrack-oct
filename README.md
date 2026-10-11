@@ -475,12 +475,16 @@ The required endpoints are exercised from Postman. For submission evidence, the 
 
 ### Successful Critical Issue Creation
 
-This test demonstrates Issue creation, the Reporter relationship, priority subclass selection, and the overridden `describe()` behaviour.
+Issue Creation API Test: Successfully creates a high-priority issue associated with Reporter 7 and returns the issue description through the custom describe() behavior.
 
+<img width="536" height="409" alt="image" src="https://github.com/user-attachments/assets/81870b94-83a9-498c-a4cd-5db667851a30" />
 
 
 ### Validation Failure
 
 This test demonstrates the domain validation path for an empty Issue title and the `400 Bad Request` response.
+
+<img width="533" height="411" alt="image" src="https://github.com/user-attachments/assets/9ad86ff9-44aa-4a2c-9ebe-2cd5c5936bb5" />
+
 
 
